@@ -8,7 +8,6 @@ class WebApp < Sinatra::Base
     register Sinatra::Reloader
   end
 
-
   get '/' do
     erb :index
   end
