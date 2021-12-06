@@ -1,13 +1,19 @@
 require 'sinatra'
 require 'sinatra/reloader'
+require_relative '../lib/bookmark.rb'
 
-class Bookmark < Sinatra::Base
+class WebApp < Sinatra::Base
   configure :development do
     register Sinatra::Reloader
   end
 
   get '/' do
-    'hello'
+    erb :index
+  end
+
+  get '/bookmarks' do
+    @bookmarks = Bookmark.new.all
+    erb :bookmarks
   end
 
   run! if app_file == $0

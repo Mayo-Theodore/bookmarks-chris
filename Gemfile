@@ -20,3 +20,7 @@ gem "launchy", "~> 2.5"
 
 gem "webrick", "~> 1.7"
 gem "rubocop", "~> 1.23"
+
+gem "simplecov", "~> 0.21.2"
+
+gem "simplecov-console", "~> 0.9.1"

@@ -1,0 +1,89 @@
+{
+  "RSpec": {
+    "coverage": {
+      "/Users/alfonsoghislieri/Coding/Makers/Week4/bookmarks/app/app.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          0,
+          null,
+          null,
+          1,
+          4,
+          null,
+          null,
+          1,
+          1,
+          1,
+          null,
+          null,
+          1,
+          null
+        ]
+      },
+      "/Users/alfonsoghislieri/Coding/Makers/Week4/bookmarks/lib/bookmark.rb": {
+        "lines": [
+          null,
+          1,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/alfonsoghislieri/Coding/Makers/Week4/bookmarks/spec/bookmarks_spec.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/alfonsoghislieri/Coding/Makers/Week4/bookmarks/spec/feature_test_spec.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/alfonsoghislieri/Coding/Makers/Week4/bookmarks/spec/index_spec.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          1,
+          null,
+          null
+        ]
+      }
+    },
+    "timestamp": 1638802724
+  }
+}
