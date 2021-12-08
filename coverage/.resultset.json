@@ -1,7 +1,7 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/alfonsoghislieri/Coding/Makers/Week4/bookmarks/app/app.rb": {
+      "/Users/mayotheodore/MT_Code/Makers/Week-4/bookmark-app/bookmarks/app/app.rb": {
         "lines": [
           1,
           1,
@@ -14,38 +14,53 @@
           null,
           null,
           1,
-          4,
+          7,
+          7,
           null,
           null,
           1,
-          2,
-          2,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
           null,
           null,
           1,
           null
         ]
       },
-      "/Users/alfonsoghislieri/Coding/Makers/Week4/bookmarks/lib/bookmark.rb": {
+      "/Users/mayotheodore/MT_Code/Makers/Week-4/bookmark-app/bookmarks/lib/bookmark.rb": {
         "lines": [
           1,
           null,
           1,
           null,
           1,
-          3,
-          3,
+          9,
+          9,
           null,
           0,
           null,
           null,
-          3,
-          11,
+          9,
+          17,
+          null,
+          null,
+          1,
+          2,
+          2,
+          null,
+          0,
+          null,
+          2,
+          null,
           null,
           null
         ]
       },
-      "/Users/alfonsoghislieri/Coding/Makers/Week4/bookmarks/spec/bookmark_spec.rb": {
+      "/Users/mayotheodore/MT_Code/Makers/Week-4/bookmark-app/bookmarks/spec/bookmark_spec.rb": {
         "lines": [
           1,
           null,
@@ -64,10 +79,32 @@
           1,
           1,
           null,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          null,
           null
         ]
       },
-      "/Users/alfonsoghislieri/Coding/Makers/Week4/bookmarks/spec/features/bookmarks_spec.rb": {
+      "/Users/mayotheodore/MT_Code/Makers/Week-4/bookmark-app/bookmarks/spec/features/add_bookmark_spec.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/mayotheodore/MT_Code/Makers/Week-4/bookmark-app/bookmarks/spec/features/bookmarks_spec.rb": {
         "lines": [
           1,
           1,
@@ -85,23 +122,10 @@
           1,
           null,
           null,
-          1,
-          1,
-          null,
-          null,
-          1,
-          1,
-          null,
-          1,
-          null,
-          1,
-          null,
-          null,
-          null,
           null
         ]
       },
-      "/Users/alfonsoghislieri/Coding/Makers/Week4/bookmarks/spec/features/feature_test_spec.rb": {
+      "/Users/mayotheodore/MT_Code/Makers/Week-4/bookmark-app/bookmarks/spec/features/feature_test_spec.rb": {
         "lines": [
           1,
           1,
@@ -118,7 +142,7 @@
           null
         ]
       },
-      "/Users/alfonsoghislieri/Coding/Makers/Week4/bookmarks/spec/features/index_spec.rb": {
+      "/Users/mayotheodore/MT_Code/Makers/Week-4/bookmark-app/bookmarks/spec/features/index_spec.rb": {
         "lines": [
           1,
           1,
@@ -136,6 +160,6 @@
         ]
       }
     },
-    "timestamp": 1638813609
+    "timestamp": 1638976928
   }
 }

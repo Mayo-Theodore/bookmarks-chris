@@ -7,7 +7,7 @@ feature "Bookmarks page functionality" do
     connection.exec("INSERT INTO bookmarks VALUES(2, 'http://www.destroyallsoftware.com');")
     connection.exec("INSERT INTO bookmarks VALUES(3, 'http://www.google.com');")
 
-    visit('/bookmarks')
+    visit('/')
 
     expect(page).to have_content "http://www.makersacademy.com"
     expect(page).to have_content "http://www.destroyallsoftware.com"

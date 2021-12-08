@@ -9,12 +9,17 @@ class WebApp < Sinatra::Base
   end
 
   get '/' do
+    @bookmarks = Bookmark.all
     erb :index
   end
 
-  get '/bookmarks' do
-    @bookmarks = Bookmark.all
-    erb :bookmarks
+  post '/confirm_link' do
+    Bookmark.create(params[:Title], params[:url])
+    redirect '/'
+  end
+
+  post '/add_link' do
+    erb :add_link
   end
 
   run! if app_file == $0

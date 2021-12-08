@@ -4,6 +4,10 @@ As a user
 In order to see what I’ve bookmarked
 I’d like to be able to see a list of bookmarks
 
+As a user 
+In order to save a website I like
+I’d like to be able to add a boomark
+
 
 DB Instructions:
 ------
