@@ -10,7 +10,7 @@ class Bookmark
     end
       
     rs = con.exec "SELECT * FROM bookmarks"
-    rs.map {|bookmark| bookmark["url"]}
+    rs.map {|bookmark| bookmark["title"]}
   end
 
   def self.create(title, url)
@@ -19,7 +19,7 @@ class Bookmark
     else
       con = PG.connect :dbname => 'bookmark_manager'
     end
-    con.exec("INSERT INTO bookmarks (url) VALUES ('#{url}');")
+    con.exec("INSERT INTO bookmarks (title, url) VALUES ( '#{title}', '#{url}');")
   end
 
 end
